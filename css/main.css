@@ -343,15 +343,18 @@
   z-index: 1;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  /* -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
+  text-align: center; */
 }
 
 .projects__btn {
+  display:flex;
+  align-items: center;
+  justify-content: center;
   opacity: 0;
   color: #000;
   -webkit-transition: all 0.5s ease-in-out;
